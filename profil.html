@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>WEB PROFIL</title>
+  <!--LINK BOOSTRAP-->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+  <!-- link icon -->
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Source+Code+Pro:ital,wght@1,500&display=swap"
+    rel="stylesheet">
+  <!--Link css-->
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<style>
+  .isi {
+    border-radius: 10px;
+  }
+
+  .bungkus {
+    padding-top: 70px;
+  }
+</style>
+
+<body>
+  <!-- Bagian navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow fixed-top border-bottom border-dark">
+    <div class="container px-5">
+      <a class="navbar-brand fs-3 fw-200" href="index.html">Admin Sekolah</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+          class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item mx-3"><a class="nav-link active" aria-current="page" href="dashboard.html">Dashboard</a>
+          </li>
+          <li class="nav-item mx-2"><a class="nav-link" href="profil.html">Profil</a></li>
+          <li class="nav-item mx-2"><a class="nav-link" href="data-siswa.html">Data Pendaftar</a></li>
+          <li class="nav-item mx-2"><a class="nav-link" href="data-ortu.html">Data Ortu Pendaftar</a></li>
+          <li class="nav-item mx-2"><a class="nav-link" href="#panggil-tiga">Keluar</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- bagian content -->
+  <div class="section">
+    <div class="bungkus">
+      <div class="isi">
+        <div class="container">
+          <h5 class="alert alert-success text-center mt-3">PROFIL SEKOLAH</h5>
+          <form action="" method="POST">
+            <div class="form-group">
+              <label>Nama Kepsek</label>
+              <input type="text" name="" class="form-control" placeholder="Masukkan Nama Kepala Sekolah">
+            </div><br>
+
+            <div class="form-group">
+              <label>No.Tlpn Sekolah</label>
+              <input type="number" name="" class="form-control" placeholder="Masukkan Nomor Tlpn Sekolah">
+            </div><br>
+
+            <div class="form-group">
+              <label>Email</label>
+              <input type="email" name="" class="form-control" placeholder="Masukkan Email Sekolah">
+            </div><br>
+            <div class="form-group">
+              <label>Jurusan</label>
+              <input type="text" name="" class="form-control" placeholder="Masukkan Nama Jurusan">
+            </div><br>
+            <button type="submit" class="btn btn-primary w-25">Ubah Profil</button>
+            <button type="reset" class="btn btn-danger w-25">Reset</button>
+        </div>
+        </form>
+        <div class="p-3"></div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="isi-footer">
+      <small>Copyright &copy; 2022 - SMKN 1 NUSANTARA.</small>
+    </div>
+  </footer>
+  </div>
+
+  <!--Link bostrap Js-->
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

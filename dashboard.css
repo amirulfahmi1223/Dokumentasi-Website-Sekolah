@@ -1,0 +1,47 @@
+body {
+  background-color: #f9f9f9;
+}
+
+.bungkus {
+  width: 80%;
+  padding-top: 100px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.isi-footer {
+  margin-left: 10%;
+}
+
+.section {
+  padding: 20px 0;
+}
+
+.isi {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 15px;
+  box-sizing: border-box;
+  margin: 10px 0 25px 0;
+}
+
+.bungkus h3 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Quicksand", sans-serif;
+}
+
+.isi {
+  padding: 30px;
+}
+
+.isi a {
+  text-decoration: none;
+  color: #000;
+}
+
+.isi::after {
+  content: "";
+  display: block;
+  clear: both;
+}

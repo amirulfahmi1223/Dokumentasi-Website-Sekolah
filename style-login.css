@@ -1,0 +1,45 @@
+html,
+body {
+    height: 100%;
+    background-image: url(img/banner-siswa.jpg);
+    background-size: cover;
+}
+
+.global-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #48e248;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.login-from {
+    width: 380px;
+    height: 450px;
+    padding: 20px;
+    background-color: #222d22 !important;
+    border-radius: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    background: #1a2226;
+    color: #fff;
+    border: 2px solid #00ff00;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.card-title {
+    font-weight: 900;
+    padding-top: 20px;
+}
+
+.btn {
+    background: #48e248 !important;
+    color: #000 !important;
+    transform: translateY(10px);
+    font-size: 14px;
+    border-radius: 10px !important;
+}

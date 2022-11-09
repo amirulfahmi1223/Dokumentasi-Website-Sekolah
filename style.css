@@ -1,0 +1,137 @@
+.gambar {
+  background-image: url(img/banner-siswa.jpg);
+  height: 550px;
+  background-position: 0 56px;
+}
+
+.misi {
+  padding-top: 30px;
+}
+
+.gallery {
+  margin-top: 150px;
+  text-align: center;
+  width: 82%;
+}
+
+.pembungkus {
+  margin-top: 2px;
+  padding-bottom: 55px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-clean {
+  padding: 50px 0;
+  color: #f0f9ff;
+  background-color: #172133ec;
+}
+
+.footer-clean h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer-clean ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.footer-clean ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-clean ul a:hover {
+  opacity: 1;
+}
+
+.footer-clean .item.social {
+  text-align: right;
+}
+
+@media (max-width:767px) {
+  .footer-clean .item {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-clean .item.social {
+    text-align: center;
+  }
+}
+
+.footer-clean .item.social>a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+  margin-top: 22px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer-clean .item.social>a:hover {
+  opacity: 0.9;
+}
+
+@media (max-width:991px) {
+  .footer-clean .item.social>a {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width:767px) {
+  .footer-clean .item.social>a {
+    margin-top: 10px;
+  }
+}
+
+.footer-clean .copyright {
+  margin-top: 14px;
+  margin-bottom: 0;
+  font-size: 13px;
+  opacity: 0.6;
+}
+
+
+.content {
+  width: 90%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 50px auto;
+}
+
+.box {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 5px 0 25px;
+}
+
+.table-data {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.table-data tr {
+  height: 35px;
+}
+
+.table-data tr td:nth-child(1) {
+  width: 30%;
+}

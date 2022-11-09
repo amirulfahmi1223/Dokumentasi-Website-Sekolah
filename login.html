@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login Form</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <!--Bagian css-->
+    <link rel="stylesheet" href="style-login.css">
+</head>
+
+<body>
+    <!---card---->
+    <div class="global-container">
+        <div class="card login-from">
+            <div class="card-body">
+                <h1 class="card-title text-center">L O G I N</h1>
+            </div>
+            <div class="card-text">
+                <!--card--->
+                <!---Form Login--->
+                <form action="" method="POST">
+                    <div class="mb-3">
+                        <label for="exampleInputUser1" class="form-label">Username</label>
+                        <input type="text" class="form-control" name="username" aria-describedby="userHelp">
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" name="password">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <!---Submit--->
+                        <div class="d-grid gap-2">
+                            <a href="dashboard.html" class="btn btn-primary">Submit</a>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--Link bostrap Js-->
+    <script src=" bootstrap/js/bootstrap.min.js">
+    </script>
+</body>
+
+</html>

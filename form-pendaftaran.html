@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>WEB PENDAFTARAN</title>
+  <!--LINK BOOSTRAP-->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+</head>
+<style>
+  body {
+    background-color: #f4f4f4;
+  }
+
+  .container {
+    background-color: #fff;
+  }
+</style>
+
+<body>
+  <div class="container">
+    <h2 class="alert alert-primary text-bl text-center mt-3">FORMULIR PENDAFTARAN SISWA BARU</h2>
+  </div>
+  <form action="" method="POST">
+    <div class="container">
+      <h5 class="alert alert-success text-center mt-3">DATA DIRI CALON SISWA</h5>
+      <!-- bagian nisn -->
+      <div class="form-group">
+        <label>NISN</label>
+        <input type="number" name="" class="form-control" placeholder="Masukkan Nisn Anda">
+      </div><br>
+      <!-- bagian nama lengkap -->
+      <div class="form-group">
+        <label>Nama Lengkap</label>
+        <input type="text" name="" class="form-control" placeholder="Masukkan Nama Lengkap Anda">
+      </div><br>
+      <!--Bagian Tempat lahir-->
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label>Tempat Lahir</label>
+            <input type="text" name="" class="form-control" placeholder="Masukkan Tempat Lahir Anda" id="tempat-lahir">
+          </div>
+        </div><br>
+        <!-- bagian tanggal lahir -->
+        <div class="col-md-6">
+          <div class="form-group">
+            <label>Tanggal Lahir</label>
+            <input type="date" name="" class="form-control" placeholder="Masukkan Tanggal Lahir Anda">
+          </div>
+        </div>
+      </div><br>
+      <!--Bagian jurusan 1-->
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-grup">
+            <label>Pilihan Jurusan 1</label>
+            <select class="form-control">
+              <option value=""">--Pilih--</option>
+              <option value=" Teknik Informatika">Teknik Informatika</option>
+              <option value=" Akomodasi Perhotelan">Akomodasi Perhotelan</option>
+              <option value="Geologi Pertambangan">Geologi Pertambangan</option>
+            </select>
+          </div><br>
+        </div><br>
+        <!-- bagian jurusan 2 -->
+        <div class="col-md-6">
+          <div class="form-grup">
+            <label>Pilihan Jurusan 2</label>
+            <select class="form-control">
+              <option value=""">--Pilih--</option>
+              <option value=" Teknik Informatika">Teknik Informatika</option>
+              <option value=" Akomodasi Perhotelan">Akomodasi Perhotelan</option>
+              <option value="Geologi Pertambangan">Geologi Pertambangan</option>
+            </select>
+          </div><br>
+        </div>
+      </div>
+      <!-- bagian jenis kelamin -->
+      <div class=" form-group">
+        <label>Jenis Kelamin</label><br>
+        <div class="form-check-inline">
+          <input type="radio" class="form-check-input" name="jenis_kelamin" id="radio2" value="Laki-Laki">
+          <label>Laki-Laki</label>
+        </div>
+        <div class="form-check-inline">
+          <input type="radio" class="form-check-input" name="jenis_kelamin" id="radio2" value="Perempuan">
+          <label>Perempuan</label>
+        </div>
+      </div><br>
+      <!-- Bagian agama -->
+      <div class="form-grup">
+        <label>Agama</label>
+        <select class="form-control">
+          <option value=""">--Pilih--</option>
+          <option value=" Islam">Islam</option>
+          <option value="Kristen">Kristen</option>
+          <option value="Katolik">Katolik</option>
+          <option value="Hindu">Hindu</option>
+          <option value="Budha">Budha</option>
+          <option value="Khonghucu">Khonghucu</option>
+        </select>
+      </div><br>
+      <!--Bagian Alamat-->
+      <div class="form-grup">
+        <label>Alamat Lengkap</label>
+        <textarea class="form-control" rows="5"></textarea>
+      </div><br>
+      <!--Asal sekolah-->
+      <div class="form-group">
+        <label>Asal Sekolah</label>
+        <input type="text" name="" class="form-control" placeholder="Masukkan Asal Sekolah Anda">
+      </div><br>
+      <!--Bagian Jalur-->
+      <div class="form-grup">
+        <label>Pilih Jalur Pendaftaran</label>
+        <select class="form-control">
+          <option value=""">--Pilih--</option>
+          <option value=" Afirmasi">Afirmasi</option>
+          <option value="Zonasi">Zonasi</option>
+          <option value="Prestasi Akedemik">Prestasi Akedemik</option>
+        </select>
+      </div><br>
+      <!---Bagian Jarak tempuh-->
+      <div class="form-group">
+        <label>Jarak Tempuh</label>
+        <input type="text" name="" class="form-control" placeholder="Masukkan Jarak tempuh Anda ke sekolah">
+      </div><br>
+      <!--Bagian nilai B.indo-->
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-grup">
+            <label>Nilai B.Indonesia</label>
+            <input type="number" name="" class="form-control" placeholder="Masukkan nilai anda">
+          </div><br>
+        </div><br>
+        <!-- bagian Nilai B.inggris -->
+        <div class="col-md-6">
+          <div class="form-grup">
+            <label>Nilai B.Inggris</label>
+            <input type="number" name="" class="form-control" placeholder="Masukkan nilai anda">
+          </div><br>
+        </div>
+      </div>
+      <!--Nilai MTK-->
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-grup">
+            <label>Nilai MTK</label>
+            <input type="number" name="" class="form-control" placeholder="Masukkan nilai anda">
+          </div><br>
+        </div><br>
+        <!-- bagian Nilai IPA-->
+        <div class="col-md-6">
+          <div class="form-grup">
+            <label>Nilai IPA</label>
+            <input type="number" name="" class="form-control" placeholder="Masukkan nilai anda">
+          </div><br>
+        </div>
+      </div>
+      <!--Bagian nilai Ips-->
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-grup">
+            <label>Nilai IPS</label>
+            <input type="number" name="" class="form-control" placeholder="Masukkan nilai anda">
+          </div><br>
+        </div><br>
+        <!-- bagian Nilai pai -->
+        <div class="col-md-6">
+          <div class="form-grup">
+            <label>Nilai PAI</label>
+            <input type="number" name="" class="form-control" placeholder="Masukkan nilai anda">
+          </div><br>
+        </div>
+      </div>
+      <!--Upload Nilai-->
+      <div class="form-group">
+        <label>Upload Foto Nilai</label>
+        <input type="file" class="form-control-file" name="">
+        <small>Upload file dengan ukuran maksimal 2 MB</small>
+      </div><br>
+      <!--Bagian Tanggal Daftar-->
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label>Tanggal Daftar</label>
+            <input type="date" name="" class="form-control" placeholder="Masukkan Tanggal Lahir Anda">
+          </div>
+        </div>
+      </div><br><br>
+      <!--Bagian Button-->
+      <a href="berhasil.html" class="btn btn-primary w-25">Daftar</a>
+      <input type="button" class="btn btn-danger w-25" value="Kembali" onclick="history.back()">
+  </form>
+  <div class="p-3"></div>
+  </div><br><br>
+  <!--Link bostrap Js-->
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

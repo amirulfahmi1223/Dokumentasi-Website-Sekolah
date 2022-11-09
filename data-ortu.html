@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Data Peserta</title>
+  <!--Link font Family-->
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Source+Code+Pro:ital,wght@1,500&display=swap"
+    rel="stylesheet">
+  <!--LINK BOOSTRAP-->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+  <!--Link css-->
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<style>
+  .btm {
+    background-color: rgb(255, 140, 8);
+    color: #fff;
+  }
+
+  .btm:hover {
+    background-color: rgb(255, 140, 8);
+  }
+
+  .text-left {
+    margin-left: 10% !important;
+    padding-top: 110px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+  }
+</style>
+<!-- Bagian navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow fixed-top border-bottom border-dark">
+  <div class="container px-5">
+    <a class="navbar-brand fs-3 fw-200" href="index.html">Admin Sekolah</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+        class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item mx-3"><a class="nav-link active" aria-current="page" href="dashboard.html">Dashboard</a>
+        </li>
+        <li class="nav-item mx-2"><a class="nav-link" href="profil.html">Profil</a></li>
+        <li class="nav-item mx-2"><a class="nav-link" href="data-siswa.html">Data Pendaftar</a></li>
+        <li class="nav-item mx-2"><a class="nav-link" href="data-ortu.html">Data Ortu Pendaftar</a></li>
+        <li class="nav-item mx-2"><a class="nav-link" href="#panggil-tiga">Keluar</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<h4 class="text-left">Data Ayah</h4>
+<!--Awal card form-->
+<div class="container">
+  <div class="card mt-2">
+    <div class="card-header bg-success text-white">
+      <a href="cetak-ayah.html" class="btn btm px-3">Print</a>
+    </div>
+    <div class="card-body">
+      <table class="table table-bordered table-striped text-center"">
+        <tr>
+          <th>No.</th>
+          <th>Nik</th>
+          <th>Nama</th>
+          <th>No.Tlpn</th>
+          <th>Alamat</th>
+          <th>Aksi</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>155021</td>
+          <td>Fahmi</td>
+          <td>082338928025</td>
+          <td>Bojonegoro</td>
+          <td>
+            <a href=" detail-ayah.html" class="btn btn-warning"> Detail </a>
+        <a href="#" class="btn btn-danger"> Hapus </a>
+        </td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>155031</td>
+          <td>Alex Shinta</td>
+          <td>08233783635</td>
+          <td>Bojonegoro</td>
+          <td>
+            <a href="#" class="btn btn-warning"> Detail </a>
+            <a href="#" class="btn btn-danger"> Hapus </a>
+          </td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>177031</td>
+          <td>Nadia Amelia</td>
+          <td>08725342675</td>
+          <td>Bojonegoro</td>
+          <td>
+            <a href="#" class="btn btn-warning"> Detail </a>
+            <a href="#" class="btn btn-danger"> Hapus </a>
+          </td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>173031</td>
+          <td>Sulistiana</td>
+          <td>0823567854</td>
+          <td>Bojonegoro</td>
+          <td>
+            <a href="#" class="btn btn-warning"> Detail </a>
+            <a href="#" class="btn btn-danger"> Hapus </a>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+<h4 class="text-left">Data Ibu</h4>
+<!--data ibu form-->
+<div class="container">
+  <div class="card mt-2">
+    <div class="card-header bg-success text-white">
+      <a href="cetak-ibu.html" class="btn btm px-3">Print</a>
+    </div>
+    <div class="card-body">
+      <table class="table table-bordered table-striped text-center"">
+        <tr>
+          <th>No.</th>
+          <th>Nik</th>
+          <th>Nama</th>
+          <th>No.Tlpn</th>
+          <th>Alamat</th>
+          <th>Aksi</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>155021</td>
+          <td>Fahmi</td>
+          <td>082338928025</td>
+          <td>Bojonegoro</td>
+          <td>
+            <a href=" detail-ibu.html" class="btn btn-warning"> Detail </a>
+        <a href="#" class="btn btn-danger"> Hapus </a>
+        </td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>155031</td>
+          <td>Alex Shinta</td>
+          <td>08233783635</td>
+          <td>Bojonegoro</td>
+          <td>
+            <a href="#" class="btn btn-warning"> Detail </a>
+            <a href="#" class="btn btn-danger"> Hapus </a>
+          </td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>177031</td>
+          <td>Nadia Amelia</td>
+          <td>08725342675</td>
+          <td>Bojonegoro</td>
+          <td>
+            <a href="#" class="btn btn-warning"> Detail </a>
+            <a href="#" class="btn btn-danger"> Hapus </a>
+          </td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>173031</td>
+          <td>Sulistiana</td>
+          <td>0823567854</td>
+          <td>Bojonegoro</td>
+          <td>
+            <a href="#" class="btn btn-warning"> Detail </a>
+            <a href="#" class="btn btn-danger"> Hapus </a>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+<!--data wali form-->
+<h4 class="text-left">Data Wali</h4>
+<div class="container">
+  <div class="card mt-2">
+    <div class="card-header bg-success text-white">
+      <a href="cetak-wali.html" class="btn btm px-3">Print</a>
+    </div>
+    <div class="card-body">
+      <table class="table table-bordered table-striped text-center"">
+        <tr>
+          <th>No.</th>
+          <th>Nik</th>
+          <th>Nama</th>
+          <th>No.Tlpn</th>
+          <th>Alamat</th>
+          <th>Aksi</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>155021</td>
+          <td>Fahmi</td>
+          <td>082338928025</td>
+          <td>Bojonegoro</td>
+          <td>
+            <a href=" detail-wali.html" class="btn btn-warning"> Detail </a>
+        <a href="#" class="btn btn-danger"> Hapus </a>
+        </td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>155031</td>
+          <td>Alex Shinta</td>
+          <td>08233783635</td>
+          <td>Bojonegoro</td>
+          <td>
+            <a href="#" class="btn btn-warning"> Detail </a>
+            <a href="#" class="btn btn-danger"> Hapus </a>
+          </td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>177031</td>
+          <td>Nadia Amelia</td>
+          <td>08725342675</td>
+          <td>Bojonegoro</td>
+          <td>
+            <a href="#" class="btn btn-warning"> Detail </a>
+            <a href="#" class="btn btn-danger"> Hapus </a>
+          </td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>173031</td>
+          <td>Sulistiana</td>
+          <td>0823567854</td>
+          <td>Bojonegoro</td>
+          <td>
+            <a href="#" class="btn btn-warning"> Detail </a>
+            <a href="#" class="btn btn-danger"> Hapus </a>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!--Akhir form-->
+<!--Footer-->
+<footer>
+  <div class="isi-footer">
+    <small>Copyright &copy; 2022 - SMKN 1 NUSANTARA.</small>
+  </div>
+</footer>
+<!--Akhir footer-->
+<!--Link bostrap Js-->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
